@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .rounded-image img {
+    border-radius: 50% !important;
+  }
+  .image-size-50 img {
+    max-width: 50px !important;
+  }
+  .image-size-95 img {
+    max-width: 95px !important;
+  }
+  .image-size-170 img {
+    max-width: 170px !important;
+  }
+  .max-w-screen-md {
+    max-width: 768px;
+  }
+}
