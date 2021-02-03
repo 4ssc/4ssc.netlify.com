@@ -3,18 +3,18 @@
 @tailwind utilities;
 
 @layer utilities {
-  .gatsby-image-wrapper {
+  .image-wrapper > div {
     overflow: unset !important;
     position: unset !important;
   }
-  .gatsby-image-wrapper > div {
+  .image-wrapper div > div {
     width: unset !important;
     padding-bottom: unset !important;
   }
-  .gatsby-image-wrapper > img {
+  .image-wrapper div > img {
     display: none;
   }
-  .gatsby-image-wrapper picture > img {
+  .image-wrapper picture > img {
     margin: 0 auto;
     width: unset !important;
     height: unset !important;
