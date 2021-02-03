@@ -9,7 +9,7 @@ const Contact = () => {
       <h2 className="pb-4 border-b text-4xl text-center">お問い合わせ</h2>
       <div className="mt-4 p-4">
         <form name="portfolio-contact" action="/success" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-          <input type="hidden" name="form-name" name="portfolio-contact"/>
+          <input type="hidden" name="form-name" value="portfolio-contact"/>
           <input type="hidden" name="bot-field"/>
           <div className="grid p-4 grid-cols-2 grid-rows-2 items-center md:grid-rows-3">
             <label for="name" className="font-bold md:col-span-2">名前<span className="ml-1 text-red-500">*</span></label>
