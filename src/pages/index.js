@@ -16,7 +16,7 @@ const Profile = () => {
         <ul className="flex mt-4 p-2 bg-gray-200 rounded-lg justify-around items-end">
           <li className="mx-2">
             <a className="block p-2 hover:underline" href="https://twitter.com/_iasa" rel="noopener noreferrer" target="_blank">
-              <div className="image-size-50">
+              <div className="image-size-40-50">
                 <Image filename="twitter_logo.png" alt="twitter_logo"/>
               </div>
               <h4 className="text-center text-sm">Twitter</h4>
@@ -24,7 +24,7 @@ const Profile = () => {
           </li>
           <li className="mx-2">
             <a className="block p-2 hover:underline" href="https://asaitem.com" rel="noopener noreferrer" target="_blank">
-              <div className="image-size-50">
+              <div className="image-size-40-50">
                 <Image filename="blogger_logo.png" alt="blogger_logo"/>
               </div>
               <h4 className="text-center text-sm">Blogger</h4>
@@ -32,7 +32,7 @@ const Profile = () => {
           </li>
           <li className="mx-2">
             <a className="block p-2 hover:underline" href="https://github.com/4ssc" rel="noopener noreferrer" target="_blank">
-              <div className="image-size-50">
+              <div className="image-size-40-50">
                 <Image filename="github_logo.png" alt="github_logo"/>
               </div>
               <h4 className="text-center text-sm">GitHub</h4>
@@ -40,7 +40,7 @@ const Profile = () => {
           </li>
           <li className="mx-2">
             <a className="block p-2 hover:underline" href="https://coconala.com/users/1547705" rel="noopener noreferrer" target="_blank">
-              <div className="image-size-50">
+              <div className="image-size-40-50">
                 <Image filename="coconala_logo.png" alt="coconala_logo"/>
               </div>
               <h4 className="text-center text-sm">ココナラ</h4>
