@@ -29,7 +29,7 @@
   .rounded-image picture > img {
     border-radius: 50% !important;
   }
-  .image-size-50 picture > img {
+  .image-size-40-50 picture > img {
     max-width: 50px !important;
   }
   .image-size-95 picture > img {
@@ -40,5 +40,11 @@
   }
   .max-w-screen-md {
     max-width: 768px;
+  }
+
+  @media screen and (max-width: 640px) {
+    .image-size-40-50 picture > img {
+      max-width: 40px !important;
+    }
   }
 }
