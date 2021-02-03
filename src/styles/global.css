@@ -3,16 +3,39 @@
 @tailwind utilities;
 
 @layer utilities {
-  .rounded-image img {
+  .gatsby-image-wrapper {
+    overflow: unset !important;
+    position: unset !important;
+  }
+  .gatsby-image-wrapper > div {
+    width: unset !important;
+    padding-bottom: unset !important;
+  }
+  .gatsby-image-wrapper > img {
+    display: none;
+  }
+  .gatsby-image-wrapper picture > img {
+    margin: 0 auto;
+    width: unset !important;
+    height: unset !important;
+    object-fit: unset !important;
+    object-position: unset !important;
+    opacity: unset !important;
+    transition: unset !important;
+    position: unset !important;
+    top: unset !important;
+    left: unset !important;
+  }
+  .rounded-image picture > img {
     border-radius: 50% !important;
   }
-  .image-size-50 img {
+  .image-size-50 picture > img {
     max-width: 50px !important;
   }
-  .image-size-95 img {
+  .image-size-95 picture > img {
     max-width: 95px !important;
   }
-  .image-size-170 img {
+  .image-size-170 picture > img {
     max-width: 170px !important;
   }
   .max-w-screen-md {
